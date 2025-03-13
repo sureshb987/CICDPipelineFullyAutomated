@@ -2,7 +2,7 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "5.67.0"
+      version = "5.90.1"
     }
   }
 }
@@ -153,7 +153,7 @@ resource "aws_instance" "my-ec2" {
     # ESTABLISHING SSH CONNECTION WITH EC2
     connection {
       type        = "ssh"
-      private_key = file("./key.pem") # replace with your key-name 
+      private_key = file("./DevOps Project.pem") # replace with your key-name 
       user        = "ubuntu"
       host        = self.public_ip
     }
