@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/413da495-fc0a-4a39-aebe-f9c1f62aeacb)
+
 # Amazon Prime Clone Deployment Project
 ![Pipeline Overview](./src/Overview.png)
 
