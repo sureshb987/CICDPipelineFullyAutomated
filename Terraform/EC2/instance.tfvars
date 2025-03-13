@@ -2,7 +2,7 @@
 
 instance_type = "t2.medium"
 ami           = "ami-0e86e20dae9224db8"   # Ubuntu 24.04
-key_name      = "key"                     # Replace with your key-name without .pem extension
+key_name      = "DevOps Project"                     # Replace with your key-name without .pem extension
 volume_size   = 30
 region_name   = "ap-south-1"
 server_name   = "Jenkins_server"
