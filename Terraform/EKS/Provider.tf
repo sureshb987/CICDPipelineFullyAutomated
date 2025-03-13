@@ -1,5 +1,5 @@
 locals {
-  region = "us-east-1"
+  region = "ap-south-1"
   name   = "amazon-prime-cluster"
   vpc_cidr = "10.0.0.0/16"
   azs      = ["ap-south-1a", "ap-south-1b"]
